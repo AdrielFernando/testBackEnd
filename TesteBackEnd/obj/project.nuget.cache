@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JT5QQb4gP/Y=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adrie\\Desktop\\testeBackEnd\\TesteBackEnd\\TesteBackEnd.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adrie\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
