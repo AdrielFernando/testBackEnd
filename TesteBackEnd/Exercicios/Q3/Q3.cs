@@ -7,7 +7,6 @@ namespace Exercicios.Q3
 {
     public class Q3
     {
-        // Método Run para ser chamado pelo menu
         public static void Run()
         {
            string projectDirectory = AppDomain.CurrentDomain.BaseDirectory;

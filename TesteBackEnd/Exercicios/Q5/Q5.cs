@@ -1,24 +1,25 @@
 using System;
-using System.Text;
 
 namespace Exercicios.Q5
 {
     public class Q5
     {
-        // Método Run para ser chamado pelo menu
         public static void Run()
         {
             Console.Write("Informe uma string: ");
             string input = Console.ReadLine();
-            StringBuilder reversed = new StringBuilder();
+            char[] reversedArray = new char[input.Length];
 
-            // Adicionando os caracteres da string invertida
+            int index = 0;
             for (int i = input.Length - 1; i >= 0; i--)
             {
-                reversed.Append(input[i]);
+                reversedArray[index] = input[i];
+                index++;
             }
 
-            Console.WriteLine("String invertida: " + reversed.ToString());
+            string reversed = new string(reversedArray);
+
+            Console.WriteLine("String invertida: " + reversed);
         }
     }
 }
